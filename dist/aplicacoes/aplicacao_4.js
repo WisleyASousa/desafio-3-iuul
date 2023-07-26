@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var clientes_1 = require("../clientes");
+var contaCorrente_1 = require("../contaCorrente");
+var contaPoupanca_1 = require("../contaPoupanca");
+console.log("\n");
+console.log("====================== Banco ======================" + "\n");
+// Aplicação 4
+var cliente3 = new clientes_1.Cliente("Marcos", 45, "Av. Central, 321");
+var cliente3_1 = new clientes_1.Cliente("Orlando", 74, "Av. Beira Mar, 458");
+var contaCorrente2 = new contaCorrente_1.ContaCorrente();
+var contaPoupanca = new contaPoupanca_1.ContaPoupanca();
+cliente3.adicionarConta(contaCorrente2);
+cliente3.adicionarConta(contaPoupanca);
+contaCorrente2.depositar(1000);
+contaPoupanca.depositar(1000);
+contaCorrente2.transferir(500, contaPoupanca);
+console.log("Saldo Conta Corrente: R$ " + contaCorrente2.calcularSaldo());
+console.log("Saldo Conta Poupança: R$ " + contaPoupanca.calcularSaldo());
+console.log("\n");
+console.log("=========================================================" + "\n");
