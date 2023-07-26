@@ -1,5 +1,5 @@
 <h2 align="center">Desafio esta divido em Branchs, cada branch é uma etapa do desafio.</h2>
-<h1 align="center"> Desafio #3 - Wilsey A. Sousa - <img src="./assets/icons/iuul.png" width="70px;" alt="Foto de Wisley no GitHub"/></h1>
+<h1 align="center"> Desafio #3 - Wisley A. Sousa - <img src="./assets/icons/iuul.png" width="70px;" alt="Foto de Wisley no GitHub"/></h1>
 
 <h3 align="center">Exemplo de aplicação em typescript utilizando nodejs, typescript.</h3>
 
