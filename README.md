@@ -37,4 +37,4 @@ Desenvolvimento de aplicação OO utilizando Typescript:
 
 4. Executar o arquivo da aplicacao desejavel na pagina Aplicacoes
 
-`node aplicacao_1.js(exemplo)`
+`node dist/aplicacoes/aplicacao_1.js` - (exemplo)
